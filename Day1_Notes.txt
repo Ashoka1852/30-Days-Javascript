@@ -1,0 +1,107 @@
+Plan: 30 days of Code. 
+
+Will Consist of: 
+Brilliant
+Codecademy
+LeetCode
+
+Day 1: Welcome to Learn Javascript
+
+
+Today we will beginning with Javascript fundamentals. This is found on Codecademy.
+
+
+Goals for the course: 
+
+Implement Javascript data types, built in methods, and variables
+Use conditionals to control the flow of a program in Javascript
+Construct functions and pass data through them
+Identify global and block-level scopes in javascript
+Use arrays to store lists of data 
+Use loops to execute blocks of code multiple times
+Use iterator methods to simplify the process of looping over arrays
+Use Javascript ES6 object syntax to model real-world items. 
+
+Projects within this course: 
+
+Kelvin Weather: Aims to build fluency in Javascript fundamentals by practicing variables and printings to the console to create a temperature convertor. 
+Sleep Debt Calculator: Practice functions to help us build separation of concerns by building a calculator to tell us if we are getting enough sleep each week. 
+Whale Talk: Master the art of looping by creating a program that talks like a whale. 
+
+Codecademy Day 1 Notes: 
+
+Datatypes are the classifications we give to the different kinds of data that we use in programming. In javascript there are 8 fundamental data types: 
+Number: Any number, including numbers with decimals: 4, 8, 1516, 23.42
+BigInt: Any number, greater than 2^53 -1 or less than -(2^53 -1) with n being appended to the number 1234567890123456n
+String: Any grouping of characters on your keyboard (letters, numbers, spaces, symbols, etc). Surrounded by single quotes or double quotes, though we prefer single quotes. Some people think of string as a fancy word for text. 
+Boolean: This data type only has two possible values - either true or false. 
+Null: The intentional absence of a value
+Undefined: Means that a given value does not exist and was not intentional. 
+Symbol: A newer feature to the language, symbols are unique identifiers, useful in more complex coding. No need to worry about these for now. 
+Objects: Collections of related data
+
+Arithmetic Operators: 
+
+Add (+)
+Subtract (-)
+Multiply (*)
+Divide(/)
+Remainder(%)
+
+
+Properties: 
+
+The browser saves an instance of the data type when you introduce a new piece of data into a javascript program. All data types have access to specific properties that are passed down to each instance. For example, every string instance has access to the length property. 
+
+The . is another operator! We call it the dot operator.
+
+
+Methods are actions we can perform. So think of properties as information about data, and methods are things you can do to that data based on the information you have
+
+
+An object is a collection of related data. Javascript has some of these built in. Everything in a programming language specifically revolves around data, what it is, and what you can do with it. That is how we solve problems, we figure out one of many ways we take the data you start with, to the data you want to get. 
+
+
+Variables: 
+
+A variable is a container for a value. You can think of variables as little containers for information that live in a computers memory. Information stored in variables, such as username, account, number, or even personalized greeting can then be found in memory. Variables also provide a way of labeling data with a descriptive name, so our programs can be understood more clearly by the reader and ourselves. 
+
+In Short: 
+
+Create a variable with a descriptive name
+Store or update information stored in a variable
+Reference or “get” information stored in a variable. 
+
+Variables are not values. You contain values and represent them with a name. Observe the diagram with the colored boxes. Each box represents variables, and the name is the label. 
+
+Important: 
+
+var 
+let (USE AT ALL TIMES; ALLOWS FOR BETTER ERROR CHECKING).
+const 
+
+
+
+Format is as follows:  var/let  + Name + = + value + ;
+
+Explanation for each of the components: 
+Var/let: Short for variable, is the section that creates or declares the new variable. 
+Name: Variables Name. use the camelCase standard: myName. Capitalizing in this way is a standard convention in Javascript. You group the words into one, the first word is lowercase, then every word that follows will have its first letter uppercase. E.g. camelCaseEverything. 
+=: The assignment operator. It assigns the value(‘Arya’) to the variable (myName). 
+After the variable is declared, end with a semicolon. Note: Typescript is better at detecting errors for this. 
+
+
+There are a few important rules for this: 
+
+Variable names cannot start with numbers
+Variable names are case sensitive, so myName and myname are not the same and are hence different variables. It is bad practice to create two variables  that have the same name using different cases. 
+Variable names cannot be the same as keywords. For a comprehensive list of keywords, check out MDN;s keyword documentation.  
+
+
+
+
+Leetcode Day 1: 
+
+This question is intended as an introduction to Javascript functions.  This editorial will cover their syntax and topics like closures and higher-order functions. In Javascript there are two ways to declare a function. One of which is to use the function keyword. 
+
+
